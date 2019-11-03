@@ -1,3 +1,0 @@
-D:/C program/C projects/Grad2Fahrnheit/cmake-build-debug/CMakeFiles/Grad2Fahrnheit.dir
-D:/C program/C projects/Grad2Fahrnheit/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C program/C projects/Grad2Fahrnheit/cmake-build-debug/CMakeFiles/rebuild_cache.dir
