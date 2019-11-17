@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C program/C projects/SWE1Ue3/XChiffText/XChiffText.c
+stdio.h
+-
+string.h
+-
+dxtmpl.h
+-
+

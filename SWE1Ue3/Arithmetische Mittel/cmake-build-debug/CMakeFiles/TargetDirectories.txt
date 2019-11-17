@@ -1,0 +1,3 @@
+D:/C program/C projects/SWE1Ue3/Arithmetische Mittel/cmake-build-debug/CMakeFiles/Arithmetische_Mittel.dir
+D:/C program/C projects/SWE1Ue3/Arithmetische Mittel/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C program/C projects/SWE1Ue3/Arithmetische Mittel/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+D:/C program/C projects/SWE1Ue3/XChiffText/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C program/C projects/SWE1Ue3/XChiffText/cmake-build-debug/CMakeFiles/XChiffText.dir
+D:/C program/C projects/SWE1Ue3/XChiffText/cmake-build-debug/CMakeFiles/rebuild_cache.dir
