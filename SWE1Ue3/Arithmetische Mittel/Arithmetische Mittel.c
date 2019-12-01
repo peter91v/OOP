@@ -1,5 +1,6 @@
 #include <stdio.h>
-#define len 5
+#define len 10
+
 //Array print function. (Made by David Maerzendorfer)
 int print(int *a, int n) {
     int i;
@@ -16,6 +17,18 @@ int arrMin(int *c, int size) {
     }
     return min;
 }
+
+//Function for Array Maximum.
+int arrMax(int *d, int size) {  // int d[] = *d
+    int max = d[0], i;
+    for (i = 1; i < size; i++) {
+        if (d[i] > max) {
+            max = d[i];
+        }
+    }
+    return max;
+}
+
 //Function for Sum Array.
 int su(int *s) {
     int sum = 0, l;
@@ -37,6 +50,7 @@ int main(){
     printf("Arithmetic middle of your Array: %.2f\n", m);
     printf("Sum of your Array: %d\n", su(arr));
     printf("Least number of your Array: %d\n", arrMin(arr, len));
+    printf("Most number of your Array: %d\n", arrMax(arr, len));
 
     return 0;
 }

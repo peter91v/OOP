@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Faktoriell.dir/main.c.obj"
+  "CMakeFiles/Faktoriell.dir/Faktorielle.c.obj"
   "Faktoriell.exe"
   "Faktoriell.exe.manifest"
   "Faktoriell.pdb"

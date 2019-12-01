@@ -1,26 +1,26 @@
 #include <stdio.h>
 #include <string.h>
-#include <dxtmpl.h>
+//#include <dxtmpl.h>
 
 
 int main() {
-    FILE *fp = fopen("test.txt", "r");
+    FILE *fp = fopen("D:\\C program\\C projects\\SWE1Ue3\\XChiffText\\test.txt", "r");
 
     if (fp == NULL){
         perror("main");
-        exit(EXIT_FAILURE);
+        return 1;
     }
-
+    int laen = strlen();
     char code[] = "Peter";
-    char file[] = "";
+    char file[laen] = "";
     int ch = 0;
 
     int s = 0;
-    while (ch = fgetc(fp) !=EOF){
+    while ((ch = fgetc(fp)) !=EOF){
         file[s]=ch;
         s++;
     }
-    int laen = strlen(file);
+
     printf("Laenge Text in File: %d Zeichnen\n", laen);
 
     char encoding[] = "";

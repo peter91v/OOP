@@ -56,27 +56,27 @@ include CMakeFiles/Faktoriell.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Faktoriell.dir/flags.make
 
-CMakeFiles/Faktoriell.dir/main.c.obj: CMakeFiles/Faktoriell.dir/flags.make
-CMakeFiles/Faktoriell.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C program\C projects\SWE1Ue3\Faktoriell\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Faktoriell.dir/main.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Faktoriell.dir\main.c.obj   -c "D:\C program\C projects\SWE1Ue3\Faktoriell\main.c"
+CMakeFiles/Faktoriell.dir/Faktorielle.c.obj: CMakeFiles/Faktoriell.dir/flags.make
+CMakeFiles/Faktoriell.dir/Faktorielle.c.obj: ../Faktorielle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C program\C projects\SWE1Ue3\Faktoriell\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Faktoriell.dir/Faktorielle.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Faktoriell.dir\Faktorielle.c.obj   -c "D:\C program\C projects\SWE1Ue3\Faktoriell\Faktorielle.c"
 
-CMakeFiles/Faktoriell.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Faktoriell.dir/main.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C program\C projects\SWE1Ue3\Faktoriell\main.c" > CMakeFiles\Faktoriell.dir\main.c.i
+CMakeFiles/Faktoriell.dir/Faktorielle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Faktoriell.dir/Faktorielle.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\C program\C projects\SWE1Ue3\Faktoriell\Faktorielle.c" > CMakeFiles\Faktoriell.dir\Faktorielle.c.i
 
-CMakeFiles/Faktoriell.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Faktoriell.dir/main.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\C program\C projects\SWE1Ue3\Faktoriell\main.c" -o CMakeFiles\Faktoriell.dir\main.c.s
+CMakeFiles/Faktoriell.dir/Faktorielle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Faktoriell.dir/Faktorielle.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\C program\C projects\SWE1Ue3\Faktoriell\Faktorielle.c" -o CMakeFiles\Faktoriell.dir\Faktorielle.c.s
 
 # Object files for target Faktoriell
 Faktoriell_OBJECTS = \
-"CMakeFiles/Faktoriell.dir/main.c.obj"
+"CMakeFiles/Faktoriell.dir/Faktorielle.c.obj"
 
 # External object files for target Faktoriell
 Faktoriell_EXTERNAL_OBJECTS =
 
-Faktoriell.exe: CMakeFiles/Faktoriell.dir/main.c.obj
+Faktoriell.exe: CMakeFiles/Faktoriell.dir/Faktorielle.c.obj
 Faktoriell.exe: CMakeFiles/Faktoriell.dir/build.make
 Faktoriell.exe: CMakeFiles/Faktoriell.dir/linklibs.rsp
 Faktoriell.exe: CMakeFiles/Faktoriell.dir/objects1.rsp

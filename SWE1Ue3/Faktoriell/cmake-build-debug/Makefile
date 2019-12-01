@@ -122,32 +122,32 @@ Faktoriell/fast:
 	$(MAKE) -f CMakeFiles\Faktoriell.dir\build.make CMakeFiles/Faktoriell.dir/build
 .PHONY : Faktoriell/fast
 
-main.obj: main.c.obj
+Faktorielle.obj: Faktorielle.c.obj
 
-.PHONY : main.obj
+.PHONY : Faktorielle.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\Faktoriell.dir\build.make CMakeFiles/Faktoriell.dir/main.c.obj
-.PHONY : main.c.obj
+Faktorielle.c.obj:
+	$(MAKE) -f CMakeFiles\Faktoriell.dir\build.make CMakeFiles/Faktoriell.dir/Faktorielle.c.obj
+.PHONY : Faktorielle.c.obj
 
-main.i: main.c.i
+Faktorielle.i: Faktorielle.c.i
 
-.PHONY : main.i
+.PHONY : Faktorielle.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\Faktoriell.dir\build.make CMakeFiles/Faktoriell.dir/main.c.i
-.PHONY : main.c.i
+Faktorielle.c.i:
+	$(MAKE) -f CMakeFiles\Faktoriell.dir\build.make CMakeFiles/Faktoriell.dir/Faktorielle.c.i
+.PHONY : Faktorielle.c.i
 
-main.s: main.c.s
+Faktorielle.s: Faktorielle.c.s
 
-.PHONY : main.s
+.PHONY : Faktorielle.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\Faktoriell.dir\build.make CMakeFiles/Faktoriell.dir/main.c.s
-.PHONY : main.c.s
+Faktorielle.c.s:
+	$(MAKE) -f CMakeFiles\Faktoriell.dir\build.make CMakeFiles/Faktoriell.dir/Faktorielle.c.s
+.PHONY : Faktorielle.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... Faktoriell
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Faktorielle.obj
+	@echo ... Faktorielle.i
+	@echo ... Faktorielle.s
 .PHONY : help
 
 

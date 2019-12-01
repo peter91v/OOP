@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/C program/C projects/SWE1Ue3/Faktoriell/main.c" "D:/C program/C projects/SWE1Ue3/Faktoriell/cmake-build-debug/CMakeFiles/Faktoriell.dir/main.c.obj"
+  "D:/C program/C projects/SWE1Ue3/Faktoriell/Faktorielle.c" "D:/C program/C projects/SWE1Ue3/Faktoriell/cmake-build-debug/CMakeFiles/Faktoriell.dir/Faktorielle.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
