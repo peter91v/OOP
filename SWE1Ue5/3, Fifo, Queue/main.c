@@ -1,3 +1,14 @@
+/*---------------------------------------------*\
+| File: Queue                                   |
+| Date: 01.12.2019                              |
+| progtimeest: 40min                            |
+| progtimereal: 60min                           |
+| author: Peter Varga                           |
+| e-mail: pvarga.its-b2019@fh-salzburg.ac.at    |
+| Salzburg University of Applied Sciences       |
+| Information Technology & Systems Managment    |
+| SWE1 - ILV05, exercise 3.                     |
+\*---------------------------------------------*/
 #include <stdio.h>
 #include <stdlib.h>
 #define len 10
