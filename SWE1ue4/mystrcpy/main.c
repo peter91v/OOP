@@ -1,3 +1,14 @@
+/*---------------------------------------------*\
+| File: mystrcpy                                |
+| Date: 01.12.2019                              |
+| progtimeest: 5min                             |
+| progtimereal: 5min                            |
+| author: Peter Varga                           |
+| e-mail: pvarga.its-b2019@fh-salzburg.ac.at    |
+| Salzburg University of Applied Sciences       |
+| Information Technology & Systems Managment    |
+| SWE1 - ILV04, exercise 4                      |
+\*---------------------------------------------*/
 #include <stdio.h>
 #include <string.h>
 

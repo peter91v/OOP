@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/C program/C projects/SWE1ue4/ILV4/Pyramid/main.c" "D:/C program/C projects/SWE1ue4/ILV4/Pyramid/cmake-build-debug/CMakeFiles/Pyramid.dir/main.c.obj"
+  "D:/C program/C projects/SWE1ue4/Pyramid/main.c" "D:/C program/C projects/SWE1ue4/Pyramid/cmake-build-debug/CMakeFiles/Pyramid.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -1,4 +1,4 @@
-# Install script for directory: D:/C program/C projects/SWE1ue4/ILV4/Pyramid
+# Install script for directory: D:/C program/C projects/SWE1ue4/Pyramid
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/C program/C projects/SWE1ue4/ILV4/Pyramid/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/C program/C projects/SWE1ue4/Pyramid/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
