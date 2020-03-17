@@ -1,3 +1,0 @@
-D:/C program/C projects/ilv3/10to20.c/cmake-build-debug/CMakeFiles/10to20_c.dir
-D:/C program/C projects/ilv3/10to20.c/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C program/C projects/ilv3/10to20.c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-D:/C program/C projects/Gehalt/cmake-build-debug/CMakeFiles/Gehalt.dir
-D:/C program/C projects/Gehalt/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C program/C projects/Gehalt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
