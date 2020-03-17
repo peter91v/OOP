@@ -1,0 +1,2 @@
+Let us compile and run the above program that will create a file file.txt with the following content −
+
