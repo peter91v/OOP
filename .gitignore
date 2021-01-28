@@ -2,4 +2,19 @@
 # Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
 ################################################################################
 
+
+/SWE2
+
+/Binaerebaum
 /SWE1/SWE1ue4
+/textintxt
+/OOP/Beispielklausur - Kopie/beispielklausur
+/OOP/Labor1
+/OOP/Labor2
+/OOP/Labor3
+/OOP/Labor4
+/OOP/OOP20_08_Varga
+/OOP/OOP20_09_Varga/OOP20_09_Varga
+/OOP/OOP20_10_Varga
+/OOP/OOP20_11_Varga
+/OOP/.vs

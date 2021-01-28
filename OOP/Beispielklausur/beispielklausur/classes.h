@@ -19,6 +19,7 @@ public:
 		: std::runtime_error(err_msg)
 	{ };
 };
+
 class Email
 {
 public:
@@ -31,7 +32,7 @@ public:
 	~Email() {};
 
 	void setEmail(const std::string& email) {
-		
+
 		try {
 			validate(email);
 			this->email = email;
