@@ -1,0 +1,2 @@
+D:\C program\C project2\OOP\Beispielklausur\beispielklausur\Debug\beispielklausur.exe
+D:\C program\C project2\OOP\Beispielklausur\beispielklausur\Debug\beispielklausur.pdb

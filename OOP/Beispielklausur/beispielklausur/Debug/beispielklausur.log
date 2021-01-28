@@ -1,0 +1,4 @@
+﻿  beispielklausur.cpp
+D:\C program\C project2\OOP\Beispielklausur\beispielklausur\classes.h(43,3): warning C4286: "const std::runtime_error &" wurde aufgefangen durch Basisklasse ("const std::exception &") in Zeile 39
+D:\C program\C project2\OOP\Beispielklausur\beispielklausur\beispielklausur.cpp(17,2): warning C4286: "const std::runtime_error &" wurde aufgefangen durch Basisklasse ("const std::exception &") in Zeile 14
+  beispielklausur.vcxproj -> D:\C program\C project2\OOP\Beispielklausur\beispielklausur\Debug\beispielklausur.exe
