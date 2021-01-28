@@ -122,6 +122,7 @@ class Teacher : public Person, public Email
 {
 public:
 
+
 	Teacher(const std::string& n, int gb, Geschlecht g, short svn, std::string em)
 		: Person(n, gb, g), soznummer(svn), Email(em)
 	{ };
