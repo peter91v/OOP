@@ -1,3 +1,0 @@
-D:/C program/C projects/SWE2/ILV01/SortFile/cmake-build-debug/CMakeFiles/SortFile.dir
-D:/C program/C projects/SWE2/ILV01/SortFile/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C program/C projects/SWE2/ILV01/SortFile/cmake-build-debug/CMakeFiles/rebuild_cache.dir
