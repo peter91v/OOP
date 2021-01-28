@@ -1,3 +1,0 @@
-D:/C program/C projects/SWE1Ue5/3, Fifo, Queue/cmake-build-debug/CMakeFiles/3__Fifo__Queue.dir
-D:/C program/C projects/SWE1Ue5/3, Fifo, Queue/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C program/C projects/SWE1Ue5/3, Fifo, Queue/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-D:/C program/C projects/SWE1Ue3/Quersumme/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/C program/C projects/SWE1Ue3/Quersumme/cmake-build-debug/CMakeFiles/Quersumme.dir
-D:/C program/C projects/SWE1Ue3/Quersumme/cmake-build-debug/CMakeFiles/edit_cache.dir
