@@ -31,27 +31,7 @@ public:
 	std::string getEmail() const { return this->email; };
 	~Email() {};
 
-	void setEmail(const std::string& email) {
-
-		try {
-			validate(email);
-			this->email = email;
-		}
-		catch (const InvalidEmail::exception& e) {
-			this->email = "";
-			std::cerr << e.what() << " Email wurde mit einem leeren String belegt" << std::endl;
-		}
-		catch (const std::runtime_error& e) {
-			this->email = "";
-			std::cerr << e.what() << std::endl;
-		}
-		catch (...) {
-			this->email = "";
-			std::cerr << "Error..." << std::endl;
-		}
-
-
-	}
+	void setEmail(const std::string& email);
 
 	static void validate(std::string email) {
 		size_t pos = email.find('@');
@@ -95,6 +75,10 @@ public:
 	Person(std::string n, int gb, Geschlecht g)
 		: name(n), geburtsdatum(gb), geschlecht(g)
 	{ };
+	virtual std::ostream& print(std::ostream& stream, Person& which);
+	std::string setname(std::string name) { return this->name = name; };
+	std::string getname() const { return this->name; };
+	friend std::ostream& operator<<(std::ostream& stream, Person& which);
 
 	~Person() {};
 };
@@ -112,37 +96,25 @@ public:
 
 	~Student() {};
 
+	friend std::ostream& operator <<(std::ostream& stream, Student& which);
+
 private:
 	long long int martikelnummer;
 
 };
 
-
 class Teacher : public Person, public Email
 {
 public:
-
 
 	Teacher(const std::string& n, int gb, Geschlecht g, short svn, std::string em)
 		: Person(n, gb, g), soznummer(svn), Email(em)
 	{ };
 
-	std::string getExtSVNr() {
-		std::string ExtSVNr = (std::to_string(this->soznummer));
-		std::string geb = (std::to_string(Person::geburtsdatum));
-
-		//yyyymmdd -> ddmmyy
-		std::string gebNeu = geb.substr(6, 2) + geb.substr(4, 2) + geb.substr(2, 2);
-		ExtSVNr.append("-" + gebNeu);
-		std::cout << ExtSVNr << std::endl;
-
-
-		return ExtSVNr;
-	}
+	std::string getExtSVNr();
 	~Teacher() {};
+	friend std::ostream& operator << (std::ostream& stream, Teacher& which);
 
 private:
 	short soznummer;
 };
-
-
